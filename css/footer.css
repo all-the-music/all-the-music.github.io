@@ -1,0 +1,22 @@
+footer {
+    background-color: skyblue;
+}
+
+.pie {
+    display: flex;
+    gap: 50px;
+    justify-content: center;
+    color: var(--colorazul);
+    padding: 1px;
+}
+
+.Idiomas {
+    display: flex;
+    gap: 24px;
+    justify-content: center;
+    padding-top: 10px;
+}
+
+.pie div a {
+    font-size: 30px;
+}

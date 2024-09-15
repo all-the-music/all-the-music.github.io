@@ -1,0 +1,21 @@
+@import url(style.css);
+
+.biografia h2 {
+    margin-bottom: 50px;
+}
+
+.somos {
+    background-color: gray;
+    padding: 30px;
+
+
+    & p {
+        font-size: 34px;
+        padding-bottom: 30px;
+    }
+}
+
+.fotosyvideos h2 {
+    margin-top: 50px;
+    margin-bottom: 50px;
+}

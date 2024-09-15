@@ -1,0 +1,174 @@
+@import url(https://fonts.googleapis.com/css2?family=Jockey+One&family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap);
+
+/*rootear la página*/
+:root {
+    --colorrojo: #AB2E2E;
+    --colornegro: #000000;
+    --colorverde: #35873D;
+    --coloramarillo: #FFCB12;
+    --colorblanco: #FFFFFF;
+    --colorazul: #1982A3;
+    --colormorado: #642ADF;
+
+    --jockeyone: "Jockey One", sans-serif;
+    ;
+}
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+
+    font-family: var(--jockeyone);
+    font-size: 20px;
+}
+
+/*rootear la página*/
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-weight: 900;
+    text-transform: uppercase;
+}
+
+
+
+h1 {
+    font-size: 3.5rem;
+}
+
+h2 {
+    font-size: 3rem;
+}
+
+h3 {
+    font-size: 2.5rem;
+}
+
+h4 {
+    font-size: 2rem;
+}
+
+h5 {
+    font-size: 1.5rem;
+}
+
+h6 {
+    font-size: 1.25rem;
+}
+
+p {
+    font-size: 1rem;
+}
+
+a {
+    text-decoration: none;
+}
+
+button {
+    cursor: pointer;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 50px;
+    background-color: transparent;
+    font-size: 1.25rem;
+    font-weight: 500;
+
+}
+
+.btn1 {
+    background-color: var(--colorrojo);
+    color: var(--colorblanco);
+    border: 2px solid var(--colorrojo);
+}
+
+.btn1:hover {
+    background-color: transparent;
+    color: var(--colornegro);
+    border: 2px solid var(--colorblanco);
+}
+
+.btn2 {
+    background-color: var(--colorverde);
+    color: var(--colorblanco);
+    border: 2px solid var(--colorblanco);
+}
+
+.btn2:hover {
+    background-color: transparent;
+    color: var(--colornegro);
+    border: 2px solid var(--colorblanco);
+}
+
+.btn3 {
+    background-color: var(--coloramarillo);
+    color: var(--colorblanco);
+    border: 2px solid var(--colorblanco);
+}
+
+.btn3:hover {
+    background-color: transparent;
+    color: var(--colornegro);
+    border: 2px solid var(--colorblanco);
+}
+
+.btn4 {
+    background-color: var(--colorazul);
+    color: var(--colorblanco);
+    border: 2px solid var(--colorblanco);
+}
+
+.btn4:hover {
+    background-color: transparent;
+    color: var(--colornegro);
+    border: 2px solid var(--colorblanco);
+}
+
+.btn5 {
+    background-color: var(--colornegro);
+    color: var(--colorblanco);
+    border: 2px solid var(--colorblanco);
+}
+
+.btn5:hover {
+    background-color: transparent;
+    color: var(--colornegro);
+    border: 2px solid var(--colornegro);
+}
+
+.container {
+    max-width: 1130px;
+    margin: 0px auto;
+    padding: 25px;
+}
+
+.Desplazamiento {
+    display: grid;
+    grid-template-columns: 1fr 3fr;
+}
+
+.grid-4 {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 30px;
+}
+
+.btn2 {
+    padding-left: 3px;
+}
+
+.grid2 {
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    gap: 50px;
+
+}
+.grid3 {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 30px;
+}
